@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f2f5; /* Light background color */
+}
+
+.container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #343a40; /* Darker text color for the heading */
+}
+
+.table {
+  border-radius: 0.5rem; /* Rounded corners for the table */
+}
+
+.table thead th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+
+.btn {
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for buttons */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+input,
+textarea {
+  border-radius: 0.5rem; /* Rounded corners for input fields */
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(
+    0,
+    123,
+    255,
+    0.1
+  ); /* Light hover effect on table rows */
+}
